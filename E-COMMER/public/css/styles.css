@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.top-header {
+    padding: 5%;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+header div.logo {
+    width: 50%;
+}
+
+header div.logo {
+    padding: 10px;
+}
+
+header nav {
+    font-size: 12px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input {
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit {
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+
+.price {
+    font-size: 18px;
+}
+
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+main section article {
+    background-color: #fff;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i,
+.discount {
+    color: #39b54a;
+}
+
+article {
+    margin-bottom: 10px;
+    height: 400px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.main-article {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.products{
+    display: flex;
+}
+
+.products-article{
+    margin: 0 auto;
+}
+
+.product-desc-box>.product-delivery-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: -15px;
+}
+
+.product-desc-box {
+    position: relative;
+}
+
+.precios {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.price {
+    width: 30%;
+}
+
+.discount {
+    width: 70%;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: #EAC926;
+    display: flex;
+    padding: 10px;
+}
+.footer-item{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-item-title{
+    margin-bottom: 10px;
+    
+}
+
+.copy{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/*MOBILE*/
+@media (max-width : 769px) {
+
+    .products {
+        display: block;
+        justify-content: space-around;
+    }
+
+    .product-card {
+        flex: 1 21%;
+    }
+
+    .products-article {
+        margin-top: 15px;
+    }
+
+    .footer {
+        margin-top: 10px;
+        display: block;
+        padding: 10px;
+    }
+}
+
+/*TABLET*/
+@media (min-width : 769px) and (max-width:1023px) {
+
+
+    .products-article img{
+        min-width: 100%;
+    }
+}
+
+

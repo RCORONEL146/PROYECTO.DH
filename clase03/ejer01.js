@@ -1,0 +1,2 @@
+ 
+console.log("Hola, estimad@ " + nombre +" "+ apellido +  "\nEn base a su sueldo actual: \n$" + sueldoActual + "\nHa recibido un aumento del " + porcAumento + "%\n$" + calculoAumento + "\ny su nuevo sueldo es de $" + nuevoSueldo);
